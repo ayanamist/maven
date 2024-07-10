@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.kr328.gradle.golang</groupId>
+  <artifactId>com.github.kr328.gradle.golang.gradle.plugin</artifactId>
+  <version>3.0.0</version>
+  <packaging>pom</packaging>
+  <name>Golang Gradle</name>
+  <description>A gradle plugin for go module building.</description>
+  <url>https://github.com/Kr328/golang-gradle-plugin</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/Kr328/golang-gradle-plugin/blob/main/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Kr328</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/Kr328/golang-gradle-plugin.git</connection>
+    <url>https://github.com/Kr328/golang-gradle-plugin</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.kr328.gradle.golang</groupId>
+      <artifactId>golang-gradle</artifactId>
+      <version>3.0.0</version>
+    </dependency>
+  </dependencies>
+</project>

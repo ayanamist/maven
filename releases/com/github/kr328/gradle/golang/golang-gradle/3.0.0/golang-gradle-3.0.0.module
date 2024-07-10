@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.kr328.gradle.golang",
+    "module": "golang-gradle",
+    "version": "3.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "golang-gradle-3.0.0.jar",
+          "url": "golang-gradle-3.0.0.jar",
+          "size": 18581,
+          "sha512": "a84e90c32b3b6722f56edef8d771624aee9fb0cc616212f8d28d1f670835ffa0da999ddc73ca0a93ff56f34779d5e6e31d37b8a446cd989c18abc91a0d1d5257",
+          "sha256": "591b77ffb47c401bb7246a39199b70825fff37cad615c50d39fe28693dec250c",
+          "sha1": "0c131a7da8297c0f9a7f6a18534bd00dbf7dca42",
+          "md5": "b4a4840dc5be416631c03f79974444b4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "golang-gradle-3.0.0.jar",
+          "url": "golang-gradle-3.0.0.jar",
+          "size": 18581,
+          "sha512": "a84e90c32b3b6722f56edef8d771624aee9fb0cc616212f8d28d1f670835ffa0da999ddc73ca0a93ff56f34779d5e6e31d37b8a446cd989c18abc91a0d1d5257",
+          "sha256": "591b77ffb47c401bb7246a39199b70825fff37cad615c50d39fe28693dec250c",
+          "sha1": "0c131a7da8297c0f9a7f6a18534bd00dbf7dca42",
+          "md5": "b4a4840dc5be416631c03f79974444b4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "golang-gradle-3.0.0-sources.jar",
+          "url": "golang-gradle-3.0.0-sources.jar",
+          "size": 4745,
+          "sha512": "9252712fabe27c8835a64de4f8f544a4ce932ec30ad4390d532bc798bdd22477680425a65bdf74e059c1ae03f286a6db2bcdac49093cb3ab1fd7a69577ffce57",
+          "sha256": "f065b46f3fd86e253f99da7bca5c165412efce8a16556e0d04519e84f595efde",
+          "sha1": "efa5d55f55e3adc1ae4ed3c1d1df0a1f67be3140",
+          "md5": "0c0598b603894bec136aedab6b421faa"
+        }
+      ]
+    }
+  ]
+}
